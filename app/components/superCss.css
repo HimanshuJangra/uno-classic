@@ -1,0 +1,38 @@
+.main-board {
+  display: flex;
+  height: 720px;
+}
+.page {
+  background-color: yellow;
+}
+.widgets {
+  background-color: blue;
+}
+.pile {
+  background-color: red;
+}
+.page,
+.widgets,
+.pile {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 400px;
+}
+.widget,
+.dropped-widget {
+  height: 40px;
+  width: 100%;
+  margin: 2px;
+  border: 1px solid black;
+  color: white;
+  background-color: gray;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
